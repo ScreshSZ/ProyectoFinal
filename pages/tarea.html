@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final | Zeniquel Santiago</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/tarea.css">
+<script src="https://kit.fontawesome.com/bdfa7ad793.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="../index.html">Zeniquel</a>
+            <ul class="links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./tarea.html">Tareas a Realizar</a></li>
+                <li><a href="../pages/formulario.html">Contacto</a></li>
+            </ul>
+            <button class="btnMobile"><i class="fa-solid fa-bars"></i></button>
+        </nav>
+    </header>
+
+    <div class="contenedorTarea">
+        <h1>Lista de Tareas en Cada Viaje</h1>
+  
+  <input type="text" id="entradaTarea" placeholder="Agregar una tarea">
+  <button onclick="agregarTarea()">Agregar</button>
+  
+  <ul id="listaTareas"></ul>
+    </div>
+    
+
+    <script src="../scripts/tarea.js"></script>
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
